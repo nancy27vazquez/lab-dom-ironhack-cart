@@ -1,5 +1,13 @@
+// values
+const price = document.getElementsByClassName("price");
+const quantity = document.getElementsByTagName("input");
+const total = document.getElementById("totalPrice");
+const delItem = document.querySelector("button");
+const item = document.getElementById("item");
+const calculatePrices = document.getElementById("calculate");
+
 let totalPrice = 0;
-totalPrice = quantity * unitCost;
+//totalPrice = quantity * price;
 
 function deleteItem(e) {}
 
